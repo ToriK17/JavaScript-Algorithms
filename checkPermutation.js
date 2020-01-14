@@ -1,0 +1,1 @@
+// Write a function that checks whether two given strings are Permutations of each other or not. A permutation of a string is another string that contains the same characters, only the order of the characters can be different. example: "abcd" and "dcba" are permutations of each other. 
