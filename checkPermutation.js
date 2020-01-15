@@ -5,7 +5,7 @@ function checkPermutation(string1, string2) {
   let arrayTwo = string2.split('').sort();
   let check = false; 
  
-  for (var i = 0; i < arrayOne.length; i++) {
+  for (let i = 0; i < arrayOne.length; i++) {
     if (arrayOne[i] !== arrayTwo[i]) {
       check = false;
     } else {
