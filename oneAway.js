@@ -6,3 +6,17 @@
     pale, bale -> true
     pale, bake -> false
 */
+
+function oneAway(string1, string2) {
+  //variable: differences between the strings
+  
+
+  // compare lengths, if different you're only allowed one different otherwise they must be identical
+
+  // if lengths are the same:
+  // like permutations check each character is the same and if not increase differences count by one
+
+  // then dependent on the differences value return oneAway true or false
+}
+
+oneAway('pale', 'ple');
