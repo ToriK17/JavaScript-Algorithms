@@ -15,7 +15,7 @@ function zeroMatrix(matrix) {
   let rows = matrix.length;
   let newMatrix = []; 
   let zeroedColumns = [];
-  
+
 
   // check rows
   for (let i = 0; i < rows; i++) {
@@ -27,11 +27,24 @@ function zeroMatrix(matrix) {
     }
   }
   // now zero columns
+  for (let i = 0; i < newMatrix.length; i++) {
+    let y = zeroedColumns[i];
+    let z = newMatrix[i];
 
+    for (let j = 0; j < z.length; j++) {
+      newMatrix[j][y] = 0;
+    }
+  }
 
+    
+    
+// newMatrix[i][y] = 0;
+  
 
   console.log(newMatrix);
-  console.log(zeroedColumns);
+  // console.log(zeroMatrix);
 }  
+
+
 zeroMatrix(matrix);
 
