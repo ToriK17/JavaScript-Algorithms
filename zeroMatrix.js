@@ -35,14 +35,8 @@ function zeroMatrix(matrix) {
       newMatrix[j][y] = 0;
     }
   }
-
     
-    
-// newMatrix[i][y] = 0;
-  
-
   console.log(newMatrix);
-  // console.log(zeroMatrix);
 }  
 
 
