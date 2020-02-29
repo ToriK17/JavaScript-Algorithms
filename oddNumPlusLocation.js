@@ -19,9 +19,9 @@ function iqTest(numbers) {
   }
 
   if (even.length > odd.length) {
-    console.log(num.indexOf(odd[0]) + 1 );
+    return num.indexOf(odd[0]) + 1 ;
   } else if ((odd.length > even.length)) {
-    console.log(num.indexOf(even[0]) + 1 );
+    return num.indexOf(even[0]) + 1 ;
   }
    
 }  
